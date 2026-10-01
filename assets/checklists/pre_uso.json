@@ -1,0 +1,817 @@
+{
+  "id": "pre_uso",
+  "title": "Checklist de Pré-Uso (Inspeção Diária)",
+  "version": 1,
+  "sections": [
+    {
+      "id": "a1",
+      "title": "Checklist Andaime A1",
+      "items": [
+        {
+          "id": "a1_01",
+          "text": "Os andaimes possuem registro formal de liberação (Placa de sinalização LIBERADO) de uso assinado pelo responsável líder da equipe de montagem de andaime ou por profissional qualificado em segurança do trabalho, capacitados para este fim?"
+        },
+        {
+          "id": "a1_02",
+          "text": "O Andaime do tipo apoiado fixo possui sapatas em base sólida / resistente?"
+        },
+        {
+          "id": "a1_03",
+          "text": "O Andaime do tipo apoiado móvel possui travamento de rodízios?"
+        },
+        {
+          "id": "a1_04",
+          "text": "Nas escadas tipo marinheiro ou fixas com altura igual ou superior a 1,80m possui linha de vida fixa ou trava quedas retrátil? (pode ser usado cinto de segurança com talabarte duplo), desde que seja garantida sua integridade estrutural."
+        },
+        {
+          "id": "a1_05",
+          "text": "O Ponto de ancoragem para recebimento da linha de vida ou trava quedas retrateis consta no projeto do andaime? E foi elaborado por profissional legalmente habilitado?"
+        },
+        {
+          "id": "a1_06",
+          "text": "As braçadeiras de fixação dos andaimes estão protegidas por capas de proteção nos acessos, áreas de trabalho e circulação de pessoas?"
+        },
+        {
+          "id": "a1_07",
+          "text": "O Piso da plataforma está completo sem vãos, aberturas e frestas (material antiderrapante, isentas de nós e rachaduras) está fixado nas extremidades."
+        },
+        {
+          "id": "a1_08",
+          "text": "Fechamento com portão ou outro meio de proteção para os vãos gerados pelos meios de acesso ao local de trabalho"
+        },
+        {
+          "id": "a1_09",
+          "text": "O alçapão em andaime possui barreira física ao redor de modo a impedir queda de pessoas?"
+        },
+        {
+          "id": "a1_10",
+          "text": "O projeto do andaime contempla, entre outros, os acessos necessários para evasão dos usuários durante cenários de emergência? (locais com presença de inflamáveis e risco de incêndio)"
+        },
+        {
+          "id": "a1_11",
+          "text": "Os andaimes estão devidamente aterrados?"
+        },
+        {
+          "id": "a1_12",
+          "text": "Foi emitida a Permissão de Trabalho (PT) ou Permissão de Trabalho Seguro (PTS)?"
+        },
+        {
+          "id": "a1_13",
+          "text": "O cinturão de segurança modelo paraquedista com talabarte duplo com mosquetão de trava dupla para atividades de trabalho em altura é usado? E foi realizado inspeção pré uso"
+        },
+        {
+          "id": "a1_14",
+          "text": "Possui travamento dos elementos que compõem os andaimes (montantes, painéis, escadas e terminais) contra o desencaixe acidental?"
+        },
+        {
+          "id": "a1_15",
+          "text": "As escadas do tipo marinheiro e os terminais das escadas estão devidamente travados e fixados conforme projeto?"
+        },
+        {
+          "id": "a1_16",
+          "text": "Os andaime são apoiados em estruturas resistentes ou quando construídos apoiado em equipamentos e/ou instalações, estes são resistentes de forma a não se colapsarem?"
+        }
+      ]
+    },
+    {
+      "id": "pemt_1b",
+      "title": "Checklist PEMT - 1B",
+      "items": [
+        {
+          "id": "pemt_01",
+          "text": "Os operadores (cesto e solo) estão capacitados para a categoria e modelo especifico de PEMT? Este treinamento está na validade de 2 anos?"
+        },
+        {
+          "id": "pemt_02",
+          "text": "O guarda corpo, rodapé e travessão estão íntegros?"
+        },
+        {
+          "id": "pemt_03",
+          "text": "O painel e os cabos elétricos estão sem desgastes e com comandos identificados e protegidos?"
+        },
+        {
+          "id": "pemt_04",
+          "text": "A chave de operação da PEMT é original sem modificações?"
+        },
+        {
+          "id": "pemt_05",
+          "text": "Os pneus e rodas estão em condições operacionais (sem rasgos, cortes, murcho, ressecamento)?"
+        },
+        {
+          "id": "pemt_06",
+          "text": "Os estabilizadores com indicador de inclinação, eixos expansíveis e estrutura em geral estão em condições operacionais (sem vazamento de óleo hidráulico, trincas)?"
+        },
+        {
+          "id": "pemt_07",
+          "text": "Existe ponto de ancoragem para fixação do talabarte indicado pelo fabricante (para cada ocupante da PEMT)?"
+        },
+        {
+          "id": "pemt_08",
+          "text": "O alarme sonoro e visual de locomoção estão operantes?"
+        },
+        {
+          "id": "pemt_09",
+          "text": "O sistema de travamento/frenagem das rodas estão operacionais?"
+        },
+        {
+          "id": "pemt_10",
+          "text": "O sistema que permita o nivelamento do cesto e impeça seu basculamento estão operacionais?"
+        },
+        {
+          "id": "pemt_11",
+          "text": "Os controles de operação e de emergência estão operacionais inclusive o que permite a movimentação dos braços e rotação da torre em caso de pane?"
+        },
+        {
+          "id": "pemt_12",
+          "text": "O anemômetro (portátil ou fixo) está disponível na PEMT para execução da atividade?"
+        },
+        {
+          "id": "pemt_13",
+          "text": "A estrutura física, eletrônica ou sensor de proximidade que mitigue o risco de esmagamento do operador do equipamento contra outra estrutura está em condições operacionais?"
+        },
+        {
+          "id": "pemt_14",
+          "text": "Está definido o meio de comunicação efetivo e operante entre os operadores (cesto e solo)?"
+        },
+        {
+          "id": "pemt_15",
+          "text": "As condições do ambiente do trabalho (piso, iluminação, obstáculos, interferências com redes energizadas) estão em condições seguras para operação da PEMT?"
+        },
+        {
+          "id": "pemt_16",
+          "text": "Foi emitida Permissão de Trabalho (PT) ou Permissão de Trabalho Seguro (PTS) para deslocamentos com o cesto acima de 1,80 m?"
+        },
+        {
+          "id": "pemt_17",
+          "text": "Os operadores (cesto e solo) estão capacitados para atuação em situações de emergência?"
+        },
+        {
+          "id": "pemt_18",
+          "text": "O deslocamento máximo da PEMT está limitado conforme manual do equipamento?"
+        },
+        {
+          "id": "pemt_19",
+          "text": "Foi emitida a Permissão de Trabalho (PT) ou Permissão de Trabalho Seguro (PTS) para atividades de encarretamento e desencarretamento?"
+        },
+        {
+          "id": "pemt_20",
+          "text": "A área de encarretamento e desencarretamento é plana?"
+        },
+        {
+          "id": "pemt_21",
+          "text": "A rampa da carreta respeita o limite de inclinação da PEMT definido no manual do equipamento?"
+        },
+        {
+          "id": "pemt_22",
+          "text": "As dimensões da prancha são compatíveis com as dimensões da PEMT a ser encarretada/desencarretada?"
+        },
+        {
+          "id": "pemt_23",
+          "text": "A rampa de embarque e desembarque está livre de avarias, danos e/ou deformações que comprometam a movimentação da PEMT?"
+        },
+        {
+          "id": "pemt_24",
+          "text": "Existe o risco de contato com redes elétricas energizadas?"
+        },
+        {
+          "id": "pemt_25",
+          "text": "Existe limitador/batedor de rodas na extremidade da prancha?"
+        }
+      ]
+    },
+    {
+      "id": "telhado_1c",
+      "title": "Checklist Telhado - 1C",
+      "items": [
+        {
+          "id": "telhado_01",
+          "text": "O método de trabalho sobre telhado foi definido em procedimento e todos os executantes são treinados e capacitados?"
+        },
+        {
+          "id": "telhado_02",
+          "text": "As estruturas dos telhados para execução de manutenção, inspeção e reforma, foram inspecionados e possuem laudo elaborado por um profissional legalmente habilitado, para que sejam autorizados a realização de trabalhos sobre eles?"
+        },
+        {
+          "id": "telhado_03",
+          "text": "As passarelas para telhados são fabricadas em material antiderrapante, com comprimento e largura que permitam a movimentação com segurança?"
+        },
+        {
+          "id": "telhado_04",
+          "text": "Em telhados com inclinação acima de 6° as passarelas possuem apoio para os pés ou travessas espaçadas em no máximo 40 cm?"
+        },
+        {
+          "id": "telhado_05",
+          "text": "As passarelas para trabalhos possuem dispositivo de interligação/travamento entre os elementos pranchões?"
+        },
+        {
+          "id": "telhado_06",
+          "text": "As passarelas para trabalhos possuem sistemas de ancoragens acompanhando toda a sua extensão para uso de cinto de segurança durante a permanência sobre a mesma?"
+        },
+        {
+          "id": "telhado_07",
+          "text": "As medidas de bloqueio de contato com partes de circuitos energizados foram avaliados por profissional habilitado?"
+        },
+        {
+          "id": "telhado_08",
+          "text": "Os materiais essenciais para execução da tarefa estão distribuídos de forma a eliminar o risco de concentração de carga?"
+        },
+        {
+          "id": "telhado_09",
+          "text": "Existe meio de comunicação definido, disponível e operante para cenários de emergência e abandonos de área?"
+        },
+        {
+          "id": "telhado_10",
+          "text": "O cinturão de segurança modelo paraquedista com talabarte duplo com mosquetão de trava dupla para atividades de trabalho em altura é usado? E foi realizado inspeção pré uso"
+        }
+      ]
+    },
+    {
+      "id": "andaime_susp_1d",
+      "title": "Checklist Andaime Suspenso - 1D",
+      "items": [
+        {
+          "id": "sus_01",
+          "text": "Foi emitida a Permissão de Trabalho (PT) ou Permissão de Trabalho Seguro (PTS)?"
+        },
+        {
+          "id": "sus_02",
+          "text": "O isolamento da área esta adequado para inicio da atividade?"
+        },
+        {
+          "id": "sus_03",
+          "text": "Estão disponíveis os dispositivos para amarração das ferramentas nas atividades de trabalho em altura?"
+        },
+        {
+          "id": "sus_04",
+          "text": "Está disponível o cinturão de segurança modelo paraquedista com talabarte duplo e/ou trava quedas para atividades de trabalho em altura?"
+        },
+        {
+          "id": "sus_05",
+          "text": "Quando aplicável, a linha de vida é fixada em estrutura independe para atividades com cordas, andaimes suspensos, cadeiras suspensas, locais com risco de colapso da estrutura e andaimes em balanço?"
+        },
+        {
+          "id": "sus_06",
+          "text": "Os pontos de ancoragens foram previamente definidos e são resistentes aos esforços que ele está sendo submetido?"
+        },
+        {
+          "id": "sus_07",
+          "text": "O sistema de proteção contra quedas possui absorvedor de energia?"
+        },
+        {
+          "id": "sus_08",
+          "text": "O sistema de ancoragem atende as normas técnicas aplicáveis?"
+        },
+        {
+          "id": "sus_09",
+          "text": "No caso de andaimes suspensos, motorizados ou por cremalheira, existe dispositivo mecânico de emergência?"
+        },
+        {
+          "id": "sus_10",
+          "text": "Os mecanismos de acionamento da plataforma suspensa (trava quedas, cordas, cabos de aço e demais dispositivos), foram testados e estão em perfeitas condições de uso?"
+        },
+        {
+          "id": "sus_11",
+          "text": "Possui guardacorpo com 1,20m, rodapé com 0,15m a 0,20m e o piso está fixado em elemento estrutural da edificação?"
+        },
+        {
+          "id": "sus_12",
+          "text": "Possui placa de identificação com a carga máxima de trabalho permitida em local visível?"
+        },
+        {
+          "id": "sus_13",
+          "text": "Os cabos de aço possuem proteção contra quinas vivas e saliências?"
+        },
+        {
+          "id": "sus_14",
+          "text": "Existe cabo guia fixado em estrutura independente da estrutura de fixação e sustentação da plataforma suspensa?"
+        },
+        {
+          "id": "sus_15",
+          "text": "O material depositado sobre a plataforma suspensa é para uso imediato?"
+        }
+      ]
+    },
+    {
+      "id": "cordas_1e",
+      "title": "Checklist Acesso por Cordas - 1E",
+      "items": [
+        {
+          "id": "cordas_01",
+          "text": "Foi definido método ou sistema de comunicação entre os executantes?"
+        },
+        {
+          "id": "cordas_02",
+          "text": "Para atividades de acesso por corda, as áreas abaixo estão devidamente isoladas e sinalizadas?"
+        },
+        {
+          "id": "cordas_03",
+          "text": "Para atividades de acesso por cordas, são utilizadas duas cordas em dois sistemas de ancoragem independentes?"
+        },
+        {
+          "id": "cordas_04",
+          "text": "Para atividades de acesso por cordas, são utilizados dois pontos de ancoragem independentes?"
+        },
+        {
+          "id": "cordas_05",
+          "text": "Os sistemas de ancoragem possuem liberação formal do supervisor N3 ou N2 formalmente designado?"
+        },
+        {
+          "id": "cordas_06",
+          "text": "São realizados testes de arrancamento em 100% dos pontos de ancoragem fixados em estruturas de concreto, solos, e ancoragens naturais (arvores, troncos, rochas)? Verificação individual de cada ponto de ancoragem."
+        },
+        {
+          "id": "cordas_07",
+          "text": "Para pontos de ancoragem soldados, foi realizado ensaio não destrutivo em 100% dos olhais utilizados como ancoragem?"
+        },
+        {
+          "id": "cordas_08",
+          "text": "As cordas estão corretamente instaladas e protegidas?"
+        },
+        {
+          "id": "cordas_09",
+          "text": "As cordas de trabalho e de segurança são do tipo alma e capa de baixo coeficiente de alongamento, tipo A, em conformidade com a ABNT NBR 15986?"
+        },
+        {
+          "id": "cordas_10",
+          "text": "Os procedimentos de resgates estão planejados e disponíveis?"
+        },
+        {
+          "id": "cordas_11",
+          "text": "Todos os equipamentos e acessórios foram inspecionados antes do uso?"
+        }
+      ]
+    },
+    {
+      "id": "esc_plat_1f",
+      "title": "Checklist Escada Plataforma - 1F",
+      "items": [
+        {
+          "id": "escplat_01",
+          "text": "Possui guardacorpo e rodapé em ambos os lados e ao redor de toda a plataforma de trabalho?"
+        },
+        {
+          "id": "escplat_02",
+          "text": "Os degraus, sapatas e plataformas são construídos com material antiderrapante?"
+        },
+        {
+          "id": "escplat_03",
+          "text": "Possui barra estabilizadora, na base inferior de ambos os lados, da parte mais alta da plataforma para evitar o seu tombamento?"
+        },
+        {
+          "id": "escplat_04",
+          "text": "Possui capacidade máxima de carga legível?"
+        },
+        {
+          "id": "escplat_05",
+          "text": "Possui sistema de estabilização/fixação quando construída com sistema de deslocamento?"
+        },
+        {
+          "id": "escplat_06",
+          "text": "As escadas com rodízios possuem travas em funcionamento que impeçam o seu deslocamento?"
+        },
+        {
+          "id": "escplat_07",
+          "text": "Os degraus estão isentos de óleo, graxa ou outro material que possa deixá-los escorregadios?"
+        },
+        {
+          "id": "escplat_08",
+          "text": "A estrutura e os degraus da escada estão livres de deformações que possam comprometer sua estabilidade?"
+        }
+      ]
+    },
+    {
+      "id": "esc_port_1g",
+      "title": "Checklist Escada Portáteis - 1G",
+      "items": [
+        {
+          "id": "escport_01",
+          "text": "Possui capacidade máxima de carga visível?"
+        },
+        {
+          "id": "escport_02",
+          "text": "Possui degraus, sapatas e plataformas com material/superfície antiderrapante? Os degraus isentos de óleos e graxas?"
+        },
+        {
+          "id": "escport_03",
+          "text": "As escadas tem o comprimento máximo específico? Simples - 7 metros / Extensível - 12 metros / Dupla - 6 metros"
+        },
+        {
+          "id": "escport_04",
+          "text": "As escadas utilizadas para serviços em poste possuem peça metálica em forma de \"M\" para serem fixadas na parte superior do poste?"
+        },
+        {
+          "id": "escport_05",
+          "text": "As escadas do tipo SIMPLES OU EXTENSIVEL são dotadas de dispositivo que impeça seu escorregamento? (meios adequados de amarração e fixação)"
+        },
+        {
+          "id": "escport_06",
+          "text": "A extremidade da escada SIMPLES OU EXTENSIVEL ultrapassa pelo menos 1 metro do piso superior durante a utilização?"
+        },
+        {
+          "id": "escport_07",
+          "text": "A escada extensível é dotada de dispositivo limitador de curso ou na sua ausência está sendo obedecida a sobreposição de no mínimo 1,0m?"
+        },
+        {
+          "id": "escport_08",
+          "text": "É de material isolante quando utilizado em linha/sistema energizado?"
+        },
+        {
+          "id": "escport_09",
+          "text": "A condição geral do piso de apoio da escada está livre de deformações, buracos, óleos, graxas e etc."
+        }
+      ]
+    },
+    {
+      "id": "cesto_1h",
+      "title": "Checklist Cesto Aéreo - 1H",
+      "items": [
+        {
+          "id": "cesto_01",
+          "text": "O sistema hidráulico, pneus, rodas, sinalizações, controle de operação do equipamento está em boas condições para operação? (Equipamento - A,B)"
+        },
+        {
+          "id": "cesto_02",
+          "text": "Sistema de travamento/frenagem das rodas quando não patolado? (Equipamento - A)"
+        },
+        {
+          "id": "cesto_03",
+          "text": "O equipamento possui dispositivo de parada de emergência operante na parte inferior e superior? (Equipamento - A,B)"
+        },
+        {
+          "id": "cesto_04",
+          "text": "Possui controles para movimentação da caçamba/cesto na parte superior e na parte inferior? (Equipamento - A,B)"
+        },
+        {
+          "id": "cesto_05",
+          "text": "Possui sistema que permita o nivelamento do cesto e impeça seu basculamento? (Equipamento - A,B)"
+        },
+        {
+          "id": "cesto_06",
+          "text": "Possui sistema de emergência que permita a movimentação dos braços e rotação da torre em caso de pane? (Equipamento - A,B)"
+        },
+        {
+          "id": "cesto_07",
+          "text": "A área de atuação da Cesta Aérea, Cesto Acoplado e do Cesto Suspenso está isenta de risco de interferência de equipamentos de guindar e redes elétricas energizadas? (Equipamento - A,B,C)"
+        },
+        {
+          "id": "cesto_08",
+          "text": "Possui sistema que impeça a operação das sapatas estabilizadoras sem o prévio recolhimento do braço móvel? (Equipamento - A,B,C)"
+        },
+        {
+          "id": "cesto_09",
+          "text": "O sistema estabilizador do equipamento com indicador de inclinação está operante? (Equipamento - A,B,C)"
+        },
+        {
+          "id": "cesto_10",
+          "text": "O sistema de bloqueio para inclinação inadequada está operante? (Equipamento - A,B)"
+        },
+        {
+          "id": "cesto_11",
+          "text": "O equipamento possui anemômetro com alarme visual e sonoro? (Equipamento - C)"
+        },
+        {
+          "id": "cesto_12",
+          "text": "O equipamento possui indicador de altura de subida do moitão que interrompa a ascensão ao atingir a altura ajustada? (Equipamento - C)"
+        },
+        {
+          "id": "cesto_13",
+          "text": "O peso total da carga içada + moitão + conjunto de cabos + caçamba + trabalhadores + ferramentas e material NÃO EXCEDE 50% da capacidade de carga nominal do equipamento de guindar? (Equipamento - C)"
+        }
+      ]
+    },
+    {
+      "id": "cinto_1i",
+      "title": "Checklist Cinto e Talabarte - 1I",
+      "items": [
+        {
+          "id": "cinto_01",
+          "text": "Existe indicação de que este cinturão de segurança e talabarte passou por inspeção periódica nos últimos 12 meses?"
+        },
+        {
+          "id": "cinto_02",
+          "text": "O cinto encontra-se isento de: sinais de rasgamento, perfuração, nós, cortes, fios rompidos, corroído por produtos químicos, rompimento de costuras?"
+        },
+        {
+          "id": "cinto_03",
+          "text": "As argolas e fivelas estão isentas: quebras, fissuras, corrosões e amassamentos?"
+        },
+        {
+          "id": "cinto_04",
+          "text": "O talabarte encontra-se isentos de: nós, cortes, fios rompidos, sinais de rasgamento, perfuração, corroído por produtos químicos, rompimento de costuras?"
+        },
+        {
+          "id": "cinto_05",
+          "text": "Indicador de impacto do cinto de segurança está isento de rompimento?"
+        },
+        {
+          "id": "cinto_06",
+          "text": "O absorvedor de energia do talabarte está isento de rompimento?"
+        },
+        {
+          "id": "cinto_07",
+          "text": "As etiquetas estão presentes, integras e legíveis no cinturão e talabarte contendo: Número de CA, Referência, Número de Lote, etiqueta do INMETRO?"
+        },
+        {
+          "id": "cinto_08",
+          "text": "Os mosquetões possuem duplo travamento e as travas e molas estão isentas de fissuras, deformações ou nível de corrosão que venham a comprometer o seu bom funcionamento?"
+        },
+        {
+          "id": "cinto_09",
+          "text": "O cinturão e talabarte duplo utilizado para atividades envolvendo altas temperaturas e soldagens é adequado para atividades de trabalho a quente?"
+        }
+      ]
+    },
+    {
+      "id": "trava_1j",
+      "title": "Checklist Travas Quedas - 1J",
+      "items": [
+        {
+          "id": "trava_01",
+          "text": "O cabo de aço encontra-se isentos de: sinais de corrosão, fios rompidos, contaminado por produtos químicos?"
+        },
+        {
+          "id": "trava_02",
+          "text": "Os componentes metálicos estão isentos de deformações, travamento, quebras, fissuras ou corrosões?"
+        },
+        {
+          "id": "trava_03",
+          "text": "A fita do trava queda encontra-se isenta de: sinais de rasgamento, perfuração, nós, cortes, fios rompidos, corroído por produtos químicos, rompimento de costuras?"
+        },
+        {
+          "id": "trava_04",
+          "text": "No mosquetão as travas, fivelas e molas estão isentas de trincas, amassamento aparente, oxidação, ruptura e deformações?"
+        },
+        {
+          "id": "trava_05",
+          "text": "O mosquetão possui duplo travamento e as condições de fechamento das roscas estão integras?"
+        },
+        {
+          "id": "trava_06",
+          "text": "O indicador de queda está isento de rompimento? (Apenas trava queda retrátil)"
+        },
+        {
+          "id": "trava_07",
+          "text": "A carcaça está isenta de danos, trincas e amassamentos?"
+        },
+        {
+          "id": "trava_08",
+          "text": "Possui mola de proteção antitravamento e está isenta de rompimento e sinais de corrosão?"
+        },
+        {
+          "id": "trava_09",
+          "text": "O gancho possui dupla trava de segurança?"
+        },
+        {
+          "id": "trava_10",
+          "text": "Existe acúmulo de substâncias estranhas, por exemplo, partículas finas, graxa, tinta, na linha de ancoragem retrátil?"
+        },
+        {
+          "id": "trava_11",
+          "text": "Evidenciado imediato travamento do cabo após ser puxado com força para fora e há retorno integral do cabo retrátil após deixar de ser puxado?"
+        },
+        {
+          "id": "trava_12",
+          "text": "Acúmulo de substâncias estranhas, por exemplo, partículas finas, graxa, tinta na linha de ancoragem retrátil?"
+        },
+        {
+          "id": "trava_13",
+          "text": "Costura rompida ou desgastada?"
+        },
+        {
+          "id": "trava_14",
+          "text": "Excesso de sujidade ou danos por produtos químicos nas fitas?"
+        },
+        {
+          "id": "trava_15",
+          "text": "Superfície poeirenta e/ou descoloração e/ou áreas endurecidas?"
+        },
+        {
+          "id": "trava_16",
+          "text": "Os pinos das dobradiças estão isentos de danos? (Trava queda deslizante)"
+        },
+        {
+          "id": "trava_17",
+          "text": "O absorvedor de energia está isento de rompimento? (Trava queda deslizante)"
+        }
+      ]
+    },
+    {
+      "id": "asc_desc_1k",
+      "title": "Checklist Ascensor/Descensor - 1K",
+      "items": [
+        {
+          "id": "asc_01",
+          "text": "Marcas de exposição ao calor, contaminação com produtos químicos (esfarelamento do alumínio), graxa ou tinta, acúmulo de sujidades ou impurezas?"
+        },
+        {
+          "id": "asc_02",
+          "text": "Marcações do fabricante, instruções e indicações no corpo do aparelho estão visíveis e legíveis?"
+        },
+        {
+          "id": "asc_03",
+          "text": "Deformação em placas, trincas, rebarbas, marcas severas (sulcos, canaletas, etc.), abrasão excessiva, corrosão?"
+        },
+        {
+          "id": "asc_04",
+          "text": "Partes móveis, molas, manoplas, palancas, castanhas, cames e dispositivos de travamento funcionando corretamente?"
+        },
+        {
+          "id": "asc_05",
+          "text": "Roscas, porcas, pinos e parafusos de montagem totalmente apertados, encaixados e sem dano aparente?"
+        }
+      ]
+    },
+    {
+      "id": "lv_h_1l",
+      "title": "Checklist LV Horizontal - 1L",
+      "items": [
+        {
+          "id": "lvh_01",
+          "text": "Existe indicação de que este dispositivo passou por uma revisão nos últimos 12 meses?"
+        },
+        {
+          "id": "lvh_02",
+          "text": "Etiqueta com indicação de número máximo de usuários, capacidade de carga, fabricante, rastreabilidade e data da ultima inspeção periódica."
+        },
+        {
+          "id": "lvh_03",
+          "text": "Absorvedor de energia (caso exista) sem rompimento?"
+        },
+        {
+          "id": "lvh_04",
+          "text": "O cabo de aço encontra-se isentos de: sinais de corrosão, fios rompidos, destorcidos ou corroído por produtos químicos?"
+        },
+        {
+          "id": "lvh_05",
+          "text": "Laço de fixação do cabo protegido por sapatilhos?"
+        },
+        {
+          "id": "lvh_06",
+          "text": "Os componentes metálicos estão isentos de deformações, travamento, quebras, fissuras, corrosões e foram instalados conforme orientação do fabricante."
+        },
+        {
+          "id": "lvh_07",
+          "text": "Mosquetão, gatilho, pinos do gatilho, travas, fivelas e molas estão isentas de trincas, amassamento aparente, oxidação, ruptura e deformações?"
+        },
+        {
+          "id": "lvh_08",
+          "text": "O mosquetão possui duplo travamento e as condições de fechamento das roscas estão íntegras?"
+        },
+        {
+          "id": "lvh_09",
+          "text": "Existe acúmulo de substâncias químicas ou sujidades, por exemplo, partículas finas, graxa, tinta?"
+        },
+        {
+          "id": "lvh_10",
+          "text": "A fita encontra-se isenta de: sinais de rasgamento, perfuração, nós, cortes, fios rompidos, corroído por produtos químicos, rompimento de costuras?"
+        },
+        {
+          "id": "lvh_11",
+          "text": "Superfície poeirenta e/ou descoloração e/ou áreas endurecidas?"
+        },
+        {
+          "id": "lvh_12",
+          "text": "Excesso de sujidade ou danos por produtos químicos nas fitas?"
+        }
+      ]
+    },
+    {
+      "id": "fita_anc_1m",
+      "title": "Checklist Fita de Ancoragem - 1M",
+      "items": [
+        {
+          "id": "fita_01",
+          "text": "Etiqueta com indicação de número máximo de usuários, capacidade de carga, fabricante e rastreabilidade? Vida útil (prazo de validade) em dia?"
+        },
+        {
+          "id": "fita_02",
+          "text": "Existe desgaste excessivo, abrasão, corte ou parte desfiada, sujidades, contaminação com produtos químicos?"
+        },
+        {
+          "id": "fita_03",
+          "text": "Costuras sem pontos de rompimento?"
+        },
+        {
+          "id": "fita_04",
+          "text": "A fita nos pontos metálico existe sinal de oxidação?"
+        },
+        {
+          "id": "fita_05",
+          "text": "Existem partes endurecidas, desbotadas, danificadas por calor, queimadas ou derretidas?"
+        }
+      ]
+    },
+    {
+      "id": "agulhao_1n",
+      "title": "Checklist Agulhão - 1N",
+      "items": [
+        {
+          "id": "agulhao_01",
+          "text": "Indicação de que este dispositivo passou por revisão periódica no intervalo de 12 meses?"
+        },
+        {
+          "id": "agulhao_02",
+          "text": "Sinais de corrosão, trinca, fissuras ou deformação?"
+        }
+      ]
+    },
+    {
+      "id": "lv_marinheiro_1o",
+      "title": "Checklist LV Escada Marinheiro - 1O",
+      "items": [
+        {
+          "id": "mar_01",
+          "text": "Placa com indicação de número máximo de usuários, capacidade de carga, fabricante, rastreabilidade e data da ultima inspeção periódica."
+        },
+        {
+          "id": "mar_02",
+          "text": "O cabo de aço encontra-se isentos de: sinais de corrosão, fios rompidos, destorcidos ou corroído por produtos químicos?"
+        },
+        {
+          "id": "mar_03",
+          "text": "Absorvedor de energia (caso exista) sem rompimento?"
+        },
+        {
+          "id": "mar_04",
+          "text": "Os componentes metálicos estão isentos de deformações, travamento, quebras, fissuras, corrosões e foram instalados conforme orientação do fabricante."
+        },
+        {
+          "id": "mar_05",
+          "text": "Laço de fixação do cabo protegido por sapatilhos?"
+        },
+        {
+          "id": "mar_06",
+          "text": "Cabo acompanhando toda a escada de forma a permitir a saída e entrada segura da escada no topo?"
+        },
+        {
+          "id": "mar_07",
+          "text": "Existe acúmulo de substâncias químicas ou sujidades, por exemplo, partículas finas, graxa, óleo lubrificantes, grafite, tinta"
+        }
+      ]
+    },
+    {
+      "id": "lv_trilho_1p",
+      "title": "Checklist LV Trilho - 1P",
+      "items": [
+        {
+          "id": "trilho_01",
+          "text": "Placa com indicação de número máximo de usuários, capacidade de carga, fabricante, rastreabilidade e data da ultima inspeção periódica?"
+        },
+        {
+          "id": "trilho_02",
+          "text": "Ausência de sinais visíveis de corrosão no trilho?"
+        },
+        {
+          "id": "trilho_03",
+          "text": "Ausência de sinais visíveis de corrosão na estrutura receptora?"
+        },
+        {
+          "id": "trilho_04",
+          "text": "Ausência de amassamentos ou empenos?"
+        },
+        {
+          "id": "trilho_05",
+          "text": "Os cabo de fixação encontra-se isentos de: sinais de corrosão, fios rompidos, destorcidos ou corroído por produtos químicos?"
+        },
+        {
+          "id": "trilho_06",
+          "text": "Linha de vida estável?"
+        },
+        {
+          "id": "trilho_07",
+          "text": "Existe acúmulo de substâncias químicas ou sujidades, por exemplo, partículas finas, graxa, tinta?"
+        }
+      ]
+    },
+    {
+      "id": "lv_portico_1q",
+      "title": "Checklist LV Pórtico Gira - 1Q",
+      "items": [
+        {
+          "id": "portico_01",
+          "text": "Ausência de sinais visiveis de corrosão?"
+        },
+        {
+          "id": "portico_02",
+          "text": "Ausência de amassamentos ou empenos?"
+        },
+        {
+          "id": "portico_03",
+          "text": "Prensa de cabos do contrapeso (Caso exista)?"
+        },
+        {
+          "id": "portico_04",
+          "text": "Base civil e a fixação estão integras sem danos aparentes?"
+        },
+        {
+          "id": "portico_05",
+          "text": "Pórtico estável e fixo?"
+        },
+        {
+          "id": "portico_06",
+          "text": "Os componentes metálicos estão isentos de deformações, travamento, quebras, fissuras, corrosões e foram instalados conforme orientação do fabricante?"
+        }
+      ]
+    }
+  ]
+}

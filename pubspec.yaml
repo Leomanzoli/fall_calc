@@ -1,0 +1,68 @@
+name: fall_calc_final
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.2+10
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  audioplayers: ^6.5.0
+  collection: ^1.18.0 
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^10.10.0
+  image_picker: ^1.2.0
+  intl: ^0.20.2
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  pdf: ^3.11.0
+  printing: ^5.12.0
+  provider: ^6.1.5+1
+  share_plus: ^11.1.0
+  shared_preferences: ^2.5.3
+  url_launcher: ^6.3.2
+  youtube_player_iframe: ^5.2.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.4
+  change_app_package_name: ^1.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/imagens/
+    - assets/icones/
+    - assets/logos/
+    - assets/fonts/
+    - assets/checklists/
+  
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+    
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icones/ic_fallcalc.png"
+  # Android Adaptive Icon (para Android 8.0+)
+  adaptive_icon_background: "#1565C0"
+  adaptive_icon_foreground: "assets/icones/ic_fallcalc.png"
+  # Remove alpha channel para iOS
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: "assets/icones/ic_fallcalc.png"
+    background_color: "#1565C0"
+    theme_color: "#1565C0"

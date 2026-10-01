@@ -1,0 +1,263 @@
+{
+  "id": "inspecao_inicial_periodica",
+  "title": "Inspeção Inicial e Periódica",
+  "version": 1,
+  "sections": [
+    {
+      "id": "cinturao_talabarte_2a",
+      "title": "CINTURÃO E TALABARTE - 2ª",
+      "items": [
+        {
+          "id": "cinturao_talabarte_01",
+          "text": "Existe indicação de que este cinturão de segurança e talabarte passou por inspeção periódica nos últimos 12 meses?"
+        },
+        {
+          "id": "cinturao_talabarte_02",
+          "text": "O cinto encontra-se isento de: sinais de rasgamento, perfuração, nós, cortes, fios rompidos, corroído por produtos químicos e rompimento de costuras?"
+        },
+        {
+          "id": "cinturao_talabarte_03",
+          "text": "As argolas e fivelas estão isentas de: quebras, fissuras, corrosões e amassamentos?"
+        },
+        {
+          "id": "cinturao_talabarte_04",
+          "text": "O talabarte encontra-se isentos de: nós, cortes, fios rompidos, sinais de rasgamento, perfuração corroído por produtos químicos e rompimento de costuras?"
+        },
+        {
+          "id": "cinturao_talabarte_05",
+          "text": "Indicador de impacto do cinto de segurança está isento de rompimento?"
+        },
+        {
+          "id": "cinturao_talabarte_06",
+          "text": "O absorvedor de energia do talabarte está isento de rompimento?"
+        },
+        {
+          "id": "cinturao_talabarte_07",
+          "text": "As etiquetas estão presentes, integras e legíveis no cinturão e talabarte contendo: Número de CA, Referência, Número de Lote, etiqueta do INMETRO?"
+        },
+        {
+          "id": "cinturao_talabarte_08",
+          "text": "Os mosquetões possuem duplo travamento e as travas e molas estão isentas de fissuras, deformações ou nível de corrosão que venham a comprometer o seu bom funcionamento?"
+        }
+      ]
+    },
+    {
+      "id": "trava_queda_2b",
+      "title": "TRAVA QUEDA - 2B",
+      "items": [
+        {
+          "id": "trava_queda_01",
+          "text": "O cabo de aço encontra-se isentos de: sinais de corrosão, fios rompidos, contaminado por produtos químicos?"
+        },
+        {
+          "id": "trava_queda_02",
+          "text": "Os componentes metálicos estão isentos de deformações, travamento, quebras, fissuras ou corrosões?"
+        },
+        {
+          "id": "trava_queda_03",
+          "text": "A fita do trava queda encontra-se isenta de: sinais de rasgamento, perfuração, nós, cortes, fios rompidos, corroído por produtos químicos, rompimento de costuras?"
+        },
+        {
+          "id": "trava_queda_04",
+          "text": "No mosquetão as travas, fivelas e molas estão isentas de trincas, amassamento aparente, oxidação, ruptura e deformações?"
+        },
+        {
+          "id": "trava_queda_05",
+          "text": "Os mosquetões possuem duplo travamento e as condições de fechamento das roscas estão íntegras?"
+        },
+        {
+          "id": "trava_queda_06",
+          "text": "Os pinos das dobradiças estão isentos de danos?"
+        },
+        {
+          "id": "trava_queda_07",
+          "text": "O absorvedor de energia está isento de rompimento?"
+        },
+        {
+          "id": "trava_queda_08",
+          "text": "A carcaça está isenta de danos, trincas e amassamentos?"
+        },
+        {
+          "id": "trava_queda_09",
+          "text": "Possui mola de proteção antitravamento e está isenta de rompimento e sinais de corrosão?"
+        },
+        {
+          "id": "trava_queda_10",
+          "text": "O gancho possui dupla trava de segurança?"
+        },
+        {
+          "id": "trava_queda_11",
+          "text": "Acúmulo de substâncias estranhas, por exemplo, partículas finas, graxa, tinta na linha de ancoragem retrátil?"
+        },
+        {
+          "id": "trava_queda_12",
+          "text": "Costura rompida ou desgastada?"
+        },
+        {
+          "id": "trava_queda_13",
+          "text": "Excesso de sujidade ou danos por produtos químicos nas fitas?"
+        },
+        {
+          "id": "trava_queda_14",
+          "text": "Superfície poeirenta e/ou descoloração e/ou áreas endurecidas?"
+        },
+        {
+          "id": "trava_queda_15",
+          "text": "Evidenciado imediato travamento do cabo após ser puxado com força para fora e há retorno integral do cabo retrátil após deixar de ser puxado?"
+        },
+        {
+          "id": "trava_queda_16",
+          "text": "Existe comprovação da certificação anual do trava quedas retrátil?"
+        },
+        {
+          "id": "trava_queda_deslizante_01",
+          "text": "Os pinos das dobradiças estão isentos de danos?"
+        },
+        {
+          "id": "trava_queda_deslizante_02",
+          "text": "O absorvedor de energia está isento de rompimento?"
+        }
+      ]
+    },
+    {
+      "id": "ascensor_descensor_2c",
+      "title": "ASCENSOR DESCENSOR - 2C",
+      "items": [
+        {
+          "id": "ascensor_descensor_01",
+          "text": "Marcas de exposição ao calor, contaminação com produtos químicos (esfarelamento do alumínio), graxa ou tinta, acúmulo de sujidades ou impurezas?"
+        },
+        {
+          "id": "ascensor_descensor_02",
+          "text": "Marcações do fabricante, instruções e indicações no corpo do aparelho estão visíveis e legíveis?"
+        },
+        {
+          "id": "ascensor_descensor_03",
+          "text": "Deformação em placas, trincas, rebarbas, marcas severas (sulcos, canaletas, etc.), abrasão excessiva, corrosão?"
+        },
+        {
+          "id": "ascensor_descensor_04",
+          "text": "Partes móveis, molas, manoplas, palancas, castanhas, cames e dispositivos de travamento funcionando corretamente?"
+        },
+        {
+          "id": "ascensor_descensor_05",
+          "text": "Roscas, porcas, pinos e parafusos de montagem totalmente apertados, encaixados e sem danos aparente?"
+        }
+      ]
+    },
+    {
+      "id": "lv_horizontal_flexivel_2d",
+      "title": "LV HORIZONTAL FLEXÍVEL - 2D",
+      "items": [
+        {
+          "id": "lv_horizontal_01",
+          "text": "Existe indicação de que este trava queda passou por uma revisão nos últimos 12 meses?"
+        },
+        {
+          "id": "lv_horizontal_02",
+          "text": "Etiqueta com indicação de número máximo de usuários, capacidade de carga, fabricante, rastreabilidade e data da última inspeção periódica."
+        },
+        {
+          "id": "lv_horizontal_03",
+          "text": "Absorvedor de energia (caso exista) sem rompimento?"
+        },
+        {
+          "id": "lv_horizontal_04",
+          "text": "O cabo de aço encontra-se isentos de: sinais de corrosão, fios rompidos, destorcidos ou corroído por produtos químicos?"
+        },
+        {
+          "id": "lv_horizontal_05",
+          "text": "Laço de fixação do cabo protegido por sapatilhos?"
+        },
+        {
+          "id": "lv_horizontal_06",
+          "text": "Os componentes metálicos estão isentos de deformações, travamento, quebras, fissuras, corrosões e foram instalados conforme orientação do fabricante."
+        },
+        {
+          "id": "lv_horizontal_07",
+          "text": "Mosquetão, gatilho, pinos do gatilho, travas, fivelas e molas estão isentas de trincas, amassamento aparente, oxidação, ruptura e deformações?"
+        },
+        {
+          "id": "lv_horizontal_08",
+          "text": "Os mosquetões possuem duplo travamento e as condições de fechamento das roscas estão íntegras?"
+        },
+        {
+          "id": "lv_horizontal_09",
+          "text": "Existe acúmulo de substâncias químicas ou sujidades, por exemplo, partículas finas, graxa, tinta?"
+        },
+        {
+          "id": "lv_horizontal_10",
+          "text": "A fita encontra-se isenta de: sinais de rasgamento, perfuração, nós, cortes, fios rompidos, corroído por produtos químicos, rompimento ou desgaste de costuras?"
+        },
+        {
+          "id": "lv_horizontal_11",
+          "text": "Superfície poeirenta e/ou descoloração e/ou áreas endurecidas?"
+        },
+        {
+          "id": "lv_horizontal_12",
+          "text": "Excesso de sujidade ou danos por produtos químicos nas fitas?"
+        }
+      ]
+    },
+    {
+      "id": "fitas_ancoragem_2e",
+      "title": "FITAS DE ANCORAGEM - 2E",
+      "items": [
+        {
+          "id": "fitas_ancoragem_01",
+          "text": "Etiqueta com indicação de número máximo de usuários, capacidade de carga, fabricante e rastreabilidade? Vida útil (prazo de validade) em dia?"
+        },
+        {
+          "id": "fitas_ancoragem_02",
+          "text": "Existe desgaste excessivo, abrasão, corte ou parte desfiada, sujidades, contaminação com produtos químicos?"
+        },
+        {
+          "id": "fitas_ancoragem_03",
+          "text": "Costuras sem pontos de rompimento?"
+        },
+        {
+          "id": "fitas_ancoragem_04",
+          "text": "A fita nos pontos metálicos existe sinal de oxidação?"
+        },
+        {
+          "id": "fitas_ancoragem_05",
+          "text": "Existem partes endurecidas, desbotadas, danificadas por calor, queimadas ou derretidas?"
+        }
+      ]
+    },
+    {
+      "id": "agulhao_2f",
+      "title": "AGULHÃO - 2F",
+      "items": [
+        {
+          "id": "agulhao_01",
+          "text": "Indicação de que este dispositivo passou por revisão periódica no intervalo de 12 meses?"
+        },
+        {
+          "id": "agulhao_02",
+          "text": "Nome do fabricante ou do importador ou a marca comercial e respectivo CNPJ"
+        },
+        {
+          "id": "agulhao_03",
+          "text": "Número de lote da produção do fabricante ou número de série, ou qualquer outro meio de rastreabilidade"
+        },
+        {
+          "id": "agulhao_04",
+          "text": "Um pictograma indicando que o usuário deve ler as informações fornecidas pelo fabricante;"
+        },
+        {
+          "id": "agulhao_05",
+          "text": "Número da norma ABNT NBR 16325-1 e letra do tipo correspondente, por exemplo, ABNT NBR 16325-1 B;"
+        },
+        {
+          "id": "agulhao_06",
+          "text": "Modelo ou código do produto?"
+        },
+        {
+          "id": "agulhao_07",
+          "text": "Sinais de corrosão trinca, fissuras ou deformação?"
+        }
+      ]
+    }
+  ]
+}
