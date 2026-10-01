@@ -7,7 +7,7 @@ import 'package:fall_calc_final/screens/pagina_relatorios.dart';
 import 'package:fall_calc_final/screens/pagina_opcoes.dart';
 import 'package:fall_calc_final/screens/pagina_sobre.dart';
 import 'package:fall_calc_final/screens/pagina_videoteca.dart';
-import 'package:fall_calc_final/screens/pagina_apoiadores.dart'; // <<< ADICIONADO
+// import 'package:fall_calc_final/screens/pagina_apoiadores.dart'; // Apoiadores desativado
 
 class PaginaMenu extends StatelessWidget {
   const PaginaMenu({super.key});
@@ -124,16 +124,15 @@ class PaginaMenu extends StatelessWidget {
               ),
               const SizedBox(height: 12),
 
-              // --- BOTÃO ADICIONADO ---
-              _buildMenuItem(
-                context,
-                icon: Icons.favorite,
-                text: 'APOIADORES',
-                page: const PaginaApoiadores(),
-              ),
-              const SizedBox(height: 12),
+              // --- APOIADORES (desativado temporariamente) ---
+              // _buildMenuItem(
+              //   context,
+              //   icon: Icons.favorite,
+              //   text: 'APOIADORES',
+              //   page: const PaginaApoiadores(),
+              // ),
+              // const SizedBox(height: 12),
 
-              // --- FIM DA ADIÇÃO ---
               _buildMenuItem(
                 context,
                 icon: Icons.settings,

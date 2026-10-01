@@ -7,7 +7,8 @@ import 'package:fall_calc_final/screens/pagina_dados_utilizador.dart';
 import 'package:fall_calc_final/screens/pagina_opcoes.dart';
 import 'package:fall_calc_final/screens/pagina_sobre.dart';
 import 'package:fall_calc_final/screens/pagina_videoteca.dart';
-import 'package:fall_calc_final/screens/pagina_apoiadores.dart';
+// Apoiadores desativado temporariamente; reative descomentando aqui e no menu.
+// import 'package:fall_calc_final/screens/pagina_apoiadores.dart';
 
 class BottomNavigationWidget extends StatelessWidget {
   /// Índice semântico: 0 Início, 1 Relatórios, 2 Vídeos, 3 Menu.
@@ -187,21 +188,21 @@ class BottomNavigationWidget extends StatelessWidget {
                   );
                 },
               ),
-              _buildMenuTile(
-                context,
-                icon: Icons.favorite,
-                title: 'Apoiadores',
-                subtitle: 'Empresas que apoiam o projeto',
-                onTap: () {
-                  Navigator.pop(context);
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => const PaginaApoiadores(),
-                    ),
-                  );
-                },
-              ),
+              // _buildMenuTile(
+              //   context,
+              //   icon: Icons.favorite,
+              //   title: 'Apoiadores',
+              //   subtitle: 'Empresas que apoiam o projeto',
+              //   onTap: () {
+              //     Navigator.pop(context);
+              //     Navigator.push(
+              //       context,
+              //       MaterialPageRoute(
+              //         builder: (context) => const PaginaApoiadores(),
+              //       ),
+              //     );
+              //   },
+              // ),
               const SizedBox(height: 25),
             ],
           ),
