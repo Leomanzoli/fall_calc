@@ -290,10 +290,10 @@ pw.Widget _buildMemoriaCalculo(Relatorio relatorio) {
     }
 
     linhasCalculo.add('');
-    linhasCalculo.add('ZLQ (desde ancoragem):');
-    String formula = '  ZLQ = PQL + DOF';
+    linhasCalculo.add('F (distância livre desde os pés):');
+    String formula = '  F = PQL + DOF';
     String valores =
-        '  ZLQ = ${potencialQuedaLivre.toStringAsFixed(2)} + ${dof.toStringAsFixed(2)}';
+        '  F = ${potencialQuedaLivre.toStringAsFixed(2)} + ${dof.toStringAsFixed(2)}';
 
     if (deformacao > 0) {
       formula += ' + Deformação';
@@ -308,16 +308,14 @@ pw.Widget _buildMemoriaCalculo(Relatorio relatorio) {
 
     linhasCalculo.add(formula);
     linhasCalculo.add(valores);
-    linhasCalculo.add('  ZLQ = ${relatorio.zlqAncoragem.toStringAsFixed(2)} m');
+    linhasCalculo.add('  F = ${relatorio.zlqPes.toStringAsFixed(2)} m');
 
     linhasCalculo.add('');
-    linhasCalculo.add('F (distância livre desde os pés):');
+    linhasCalculo.add('ZLQ (desde ancoragem):');
+    linhasCalculo.add('  (os pés param C abaixo do anel-D, que desce PQL + DOF)');
     linhasCalculo.add(
-      '  F = ZLQ - AA = ${relatorio.zlqAncoragem.toStringAsFixed(2)} - ${aa.toStringAsFixed(2)} = ${(relatorio.zlqAncoragem - aa).toStringAsFixed(2)} m',
+      '  ZLQ = F + AA = ${relatorio.zlqPes.toStringAsFixed(2)} + ${aa.toStringAsFixed(2)} = ${relatorio.zlqAncoragem.toStringAsFixed(2)} m',
     );
-    if (relatorio.zlqPes < ms) {
-      linhasCalculo.add('  F < 1,00 m → F = 1,00 m (mínimo)');
-    }
   } else {
     // Modo Talabarte com Absorvedor
     final double l = relatorio.compTalabarte;
@@ -350,6 +348,9 @@ pw.Widget _buildMemoriaCalculo(Relatorio relatorio) {
     // Fórmula direta - ZLQ é sempre medida da ancoragem para baixo
     // Independente de onde está a ancoragem em relação ao anel-D
     linhasCalculo.add('  (ZLQ é medida da ancoragem para baixo)');
+    linhasCalculo.add(
+      '  Ref.: Manual NR-35, Fig. 51/52: ZLQ = f3 + a + b + c + d',
+    );
     String formula = '  ZLQ = L + EA + C';
     String valores =
         '  ZLQ = ${l.toStringAsFixed(2)} + ${ea.toStringAsFixed(2)} + ${c.toStringAsFixed(2)}';
@@ -369,6 +370,11 @@ pw.Widget _buildMemoriaCalculo(Relatorio relatorio) {
     linhasCalculo.add(valores);
 
     linhasCalculo.add('  ZLQ = ${relatorio.zlqAncoragem.toStringAsFixed(2)} m');
+    if (deformacao > 0) {
+      linhasCalculo.add(
+        '  Deformação do cinto (0,30 m): adicional conservador, não previsto no exemplo do Manual',
+      );
+    }
 
     linhasCalculo.add('');
     linhasCalculo.add('F (distância livre desde os pés):');

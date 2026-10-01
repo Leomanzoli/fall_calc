@@ -172,7 +172,7 @@ class PaginaSobre extends StatelessWidget {
                       color: colorScheme.onSurfaceVariant,
                     ),
                     title: const Text('Versão'),
-                    subtitle: const Text('1.0.2'),
+                    subtitle: const Text('1.0.3'),
                     dense: true,
                   ),
                   ListTile(

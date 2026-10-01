@@ -9,6 +9,7 @@ import 'package:printing/printing.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:fall_calc_final/models/relatoriofq_zlq.dart';
+import 'package:fall_calc_final/utils/calculo_fq_zlq.dart';
 import 'package:fall_calc_final/utils/gerador_pdf_fq_zlq.dart';
 import 'package:fall_calc_final/utils/imagem_local.dart';
 import 'package:fall_calc_final/widgets/ajuste_imagem_widget.dart';
@@ -607,107 +608,37 @@ class _PaginaCalculadoraState extends State<PaginaCalculadora> {
   }
 
   void _calcular() {
-    final double distanciaPes =
-        double.tryParse(_controllerDistanciaPes.text.replaceAll(',', '.')) ??
-        0.0;
-    final double alturaAncoragemPes =
-        double.tryParse(_controllerAlturaAncoragem.text.replaceAll(',', '.')) ??
-        0.0;
-    const double margemSegurancaPadrao = 1.0;
-    final double deformacaoCintoValor = _incluirDeformacaoCinto ? 0.3 : 0.0;
-    // Flecha de projeto da linha de vida horizontal (se aplicável)
+    double lerCampo(TextEditingController c) =>
+        double.tryParse(c.text.replaceAll(',', '.')) ?? 0.0;
+
+    final double distanciaPes = lerCampo(_controllerDistanciaPes);
+    final double alturaAncoragemPes = lerCampo(_controllerAlturaAncoragem);
     final double flechaProjetoValor = _usaLinhaVidaHorizontal
-        ? (double.tryParse(
-                _controllerFlechaProjeto.text.replaceAll(',', '.'),
-              ) ??
-              0.0)
+        ? lerCampo(_controllerFlechaProjeto)
         : 0.0;
 
-    double fqCalculado = 0.0;
-    String alertaFq = '';
-    double zlqAncoragemCalculada = 0.0;
-    double zlqPesCalculada = 0.0;
-    bool calculoValidoF = false;
-
-    if (_equipamentoTravaQuedas) {
-      final double dof =
-          double.tryParse(_controllerAbsorvedor.text.replaceAll(',', '.')) ??
-          0.0;
-      double potencialQuedaLivre;
-
-      if (alturaAncoragemPes < distanciaPes) {
-        potencialQuedaLivre = distanciaPes - alturaAncoragemPes;
-      } else {
-        potencialQuedaLivre = 0.0;
-      }
-
-      fqCalculado = potencialQuedaLivre;
-
-      if (potencialQuedaLivre > 0.01) {
-        alertaFq =
-            'ALERTA SEVERO:\nAncoragem abaixo do Anel D. Risco elevado!\nConsulte o manual do trava-quedas. Fabricantes geralmente proíbem o uso com queda livre, exigindo equipamentos Classe B (ou SRD-LE) para trabalho em borda (leading edge).';
-      }
-
-      zlqAncoragemCalculada =
-          potencialQuedaLivre +
-          dof +
-          deformacaoCintoValor +
-          flechaProjetoValor +
-          margemSegurancaPadrao;
-
-      // F = ZLQ - AA (igual ao modo talabarte)
-      zlqPesCalculada = zlqAncoragemCalculada - alturaAncoragemPes;
-      calculoValidoF = true;
-    } else {
-      fqCalculado = -1.0;
-      final double talabarte =
-          double.tryParse(_controllerTalabarte.text.replaceAll(',', '.')) ??
-          0.0;
-      final double absorvedor =
-          double.tryParse(_controllerAbsorvedor.text.replaceAll(',', '.')) ??
-          0.0;
-
-      if (talabarte > 0) {
-        final double alturaAncoragemCinto = alturaAncoragemPes - distanciaPes;
-        double alturaDaQueda = talabarte - alturaAncoragemCinto;
-        if (alturaDaQueda < 0) alturaDaQueda = 0;
-
-        fqCalculado = alturaDaQueda / talabarte;
-
-        if (fqCalculado > 1.9 && fqCalculado < 2.1) {
-          alertaFq = 'Atenção, o fator de queda 2 é o limite máximo permitido.';
-        } else if (fqCalculado > 2) {
-          alertaFq =
-              'ATENÇÃO!\nConforme a NR35, não pode ser realizada atividades com fatores de queda maiores que 2!';
-        }
-
-        // ZLQ desde ancoragem: fórmula direta usando o comprimento do talabarte
-        // A ZLQ é sempre medida da ancoragem para baixo, então usamos L diretamente
-        // (não Hq, que inclui queda acima da ancoragem quando AA < C)
-        zlqAncoragemCalculada =
-            talabarte +
-            absorvedor +
-            distanciaPes +
-            deformacaoCintoValor +
-            flechaProjetoValor +
-            margemSegurancaPadrao;
-
-        zlqPesCalculada = zlqAncoragemCalculada - alturaAncoragemPes;
-        calculoValidoF = true;
-      }
-    }
-
-    // ATUALIZADO: Sempre que F ficar menor que 1m, adota-se 1m.
-    // (Aplicado somente quando existe um cálculo válido.)
-    if (calculoValidoF && zlqPesCalculada < margemSegurancaPadrao) {
-      zlqPesCalculada = margemSegurancaPadrao;
-    }
+    final ResultadoFqZlq resultado = _equipamentoTravaQuedas
+        ? calcularTravaQuedas(
+            dof: lerCampo(_controllerAbsorvedor),
+            aa: alturaAncoragemPes,
+            c: distanciaPes,
+            incluirDeformacaoCinto: _incluirDeformacaoCinto,
+            flecha: flechaProjetoValor,
+          )
+        : calcularTalabarte(
+            l: lerCampo(_controllerTalabarte),
+            ea: lerCampo(_controllerAbsorvedor),
+            aa: alturaAncoragemPes,
+            c: distanciaPes,
+            incluirDeformacaoCinto: _incluirDeformacaoCinto,
+            flecha: flechaProjetoValor,
+          );
 
     setState(() {
-      _resultadoZLQAncoragem = zlqAncoragemCalculada;
-      _resultadoZLQpes = zlqPesCalculada;
-      _resultadoFQ = fqCalculado;
-      _mensagemAlertaFQ = alertaFq;
+      _resultadoZLQAncoragem = resultado.zlqAncoragem;
+      _resultadoZLQpes = resultado.zlqPes;
+      _resultadoFQ = resultado.fq;
+      _mensagemAlertaFQ = resultado.alerta;
     });
   }
 
@@ -1029,8 +960,8 @@ class _PaginaCalculadoraState extends State<PaginaCalculadora> {
                 title: const Text('Incluir Fator de Deformação do Cinto?'),
                 subtitle: Text(
                   _incluirDeformacaoCinto
-                      ? 'Sim (Recomendado: +0.3m na ZLQ)'
-                      : 'Não (Cálculo simplificado)',
+                      ? 'Sim (+0,3 m na ZLQ; adicional conservador, não previsto no exemplo do Manual da NR-35)'
+                      : 'Não (fórmula do Manual da NR-35: ZLQ = f3 + a + b + c + d)',
                 ),
                 value: _incluirDeformacaoCinto,
                 onChanged: (bool novoValor) {
