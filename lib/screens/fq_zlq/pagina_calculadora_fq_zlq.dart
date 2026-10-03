@@ -4,6 +4,7 @@ import 'dart:typed_data';
 
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart' show FilteringTextInputFormatter;
 import 'package:image_picker/image_picker.dart';
 import 'package:printing/printing.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -28,6 +29,18 @@ class PaginaCalculadora extends StatefulWidget {
   @override
   State<PaginaCalculadora> createState() => _PaginaCalculadoraState();
 }
+
+// No iOS, TextInputType.number abre um teclado sem separador decimal;
+// numberWithOptions(decimal: true) exibe "." ou "," conforme o idioma.
+const _tecladoDecimal = TextInputType.numberWithOptions(decimal: true);
+const _tecladoDecimalComSinal = TextInputType.numberWithOptions(
+  signed: true,
+  decimal: true,
+);
+final _apenasDecimal = [FilteringTextInputFormatter.allow(RegExp(r'[0-9.,]'))];
+final _apenasDecimalComSinal = [
+  FilteringTextInputFormatter.allow(RegExp(r'[0-9.,\-]')),
+];
 
 class _PaginaCalculadoraState extends State<PaginaCalculadora> {
   final _controllerLocal = TextEditingController();
@@ -1011,7 +1024,8 @@ class _PaginaCalculadoraState extends State<PaginaCalculadora> {
                         ),
                       ),
                     ),
-                    keyboardType: TextInputType.number,
+                    keyboardType: _tecladoDecimal,
+                    inputFormatters: _apenasDecimal,
                   ),
                 ),
                 crossFadeState: _usaLinhaVidaHorizontal
@@ -1037,10 +1051,8 @@ class _PaginaCalculadoraState extends State<PaginaCalculadora> {
                     ),
                   ),
                 ),
-                keyboardType: const TextInputType.numberWithOptions(
-                  signed: true,
-                  decimal: true,
-                ),
+                keyboardType: _tecladoDecimalComSinal,
+                inputFormatters: _apenasDecimalComSinal,
               ),
               const SizedBox(height: 16),
               TextField(
@@ -1073,7 +1085,8 @@ class _PaginaCalculadoraState extends State<PaginaCalculadora> {
                     },
                   ),
                 ),
-                keyboardType: TextInputType.number,
+                keyboardType: _tecladoDecimal,
+                inputFormatters: _apenasDecimal,
               ),
               const SizedBox(height: 16),
               TextField(
@@ -1105,7 +1118,8 @@ class _PaginaCalculadoraState extends State<PaginaCalculadora> {
                     },
                   ),
                 ),
-                keyboardType: TextInputType.number,
+                keyboardType: _tecladoDecimal,
+                inputFormatters: _apenasDecimal,
               ),
               const SizedBox(height: 16),
               TextField(
@@ -1125,7 +1139,8 @@ class _PaginaCalculadoraState extends State<PaginaCalculadora> {
                     ),
                   ),
                 ),
-                keyboardType: TextInputType.number,
+                keyboardType: _tecladoDecimal,
+                inputFormatters: _apenasDecimal,
               ),
               const SizedBox(height: 24),
               ElevatedButton(
